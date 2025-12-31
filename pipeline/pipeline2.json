@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "DF_Filter_Sales",
+				"name": "DF_Filter_Sale",
 				"type": "ExecuteDataFlow",
 				"dependsOn": [],
 				"policy": {
