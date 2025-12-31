@@ -1,0 +1,9 @@
+{
+	"name": "shakshi-df",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c82c546e-635d-484d-b806-e3fa09e713f6",
+		"tenantId": "e3ca8a3f-00b7-443a-b91c-00451105271b"
+	}
+}
