@@ -1,0 +1,9 @@
+{
+	"name": "shakshi-prod",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f87956c5-9849-44f7-8b60-6c2efeb6fdf1",
+		"tenantId": "e3ca8a3f-00b7-443a-b91c-00451105271b"
+	}
+}
