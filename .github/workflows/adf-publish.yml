@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Azure Login
@@ -18,10 +18,12 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - name: Deploy ARM template
+    - name: Deploy ARM Template to PROD
       uses: azure/arm-deploy@v1
       with:
-        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+        subscriptionId: 9fea359b-797a-4f75-9f1a-d243a6ff118e
         resourceGroupName: shakshi-prod
         template: ARMTemplateForFactory.json
         parameters: ARMTemplateParametersForFactory.json
+
+     
